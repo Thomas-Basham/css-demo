@@ -1,0 +1,27 @@
+/* element selector */
+li {
+  background-color: aquamarine;
+  font-size: 20px;
+}
+
+/* ID selector */
+#css-tips-heading {
+  color: darkkhaki;
+}
+
+/* Class Selector */
+.first-li {
+  background-color: #22577A;
+}
+
+/* you can select multiple things by using commas */
+th,
+td {
+  background-color: rgba(3, 152, 103, .2);
+}
+
+/* there are many types of units of measurements */
+/* pixels are the most common */
+h2 {
+  font-size: 1rem;
+}

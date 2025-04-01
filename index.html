@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tips & Tricks</title>
+
+    <!-- External style sheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Internal Styling -->
+    <style>
+      /* styles here */
+      /* styles here */
+      /* styles here */
+      /* styles here */
+    </style>
+  </head>
+  <body>
+    <!-- Inline Styling -->
+    <header style="background-color: cadetblue;">
+      <h1 id="css-tips-heading">CSS Tips & Tricks</h1>
+      <p>Your guide to making the web look awesome</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li class="first-li"><a href="#">Home</a></li>
+        <li><a href="#">Tips</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Introduction to CSS</h2>
+        <p>
+          CSS (Cascading Style Sheets) is what makes websites look great. It
+          controls the layout, colors, fonts, and overall vibe of your web page.
+        </p>
+        <img
+          src="https://placekitten.com/400/200"
+          alt="Cat playing with code"
+        />
+      </section>
+
+      <section>
+        <h2>Top 5 CSS Tips</h2>
+        <ol>
+          <li class="first-li">
+            <strong>Keep it organized</strong> – Use consistent formatting and
+            break up your CSS into sections.
+          </li>
+          <li>
+            <strong>Use classes over IDs</strong> – IDs are unique, but classes
+            are reusable. Keep it flexible.
+          </li>
+          <li>
+            <strong>Embrace the box model</strong> – Understand padding, border,
+            and margin—it'll save your layout.
+          </li>
+          <li>
+            <strong>Use browser dev tools</strong> – Right-click, inspect, and
+            experiment!
+          </li>
+          <li>
+            <strong>Mobile first!</strong> – Start with a base layout and use
+            media queries to make it responsive.
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Example: Common CSS Properties</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Example</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>color</code></td>
+              <td><code>color: red;</code></td>
+              <td>Changes the text color</td>
+            </tr>
+            <tr>
+              <td><code>padding</code></td>
+              <td><code>padding: 20px;</code></td>
+              <td>Adds space inside the element</td>
+            </tr>
+            <tr>
+              <td><code>border</code></td>
+              <td><code>border: 1px solid black;</code></td>
+              <td>Adds a border around the element</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Quick Contact</h2>
+        <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="question">Your Question:</label><br />
+          <textarea id="question" name="question" rows="4"></textarea
+          ><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 CSS Tips & Tricks. Made with 💙 and
+        <code>display: flex</code>.
+      </p>
+    </footer>
+  </body>
+</html>
