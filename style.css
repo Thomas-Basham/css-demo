@@ -1,27 +1,71 @@
 /* element selector */
 li {
-  background-color: aquamarine;
+  background-color: rgb(234, 226, 183);
   font-size: 20px;
 }
 
 /* ID selector */
 #css-tips-heading {
-  color: darkkhaki;
+  color: rgb(0, 48, 73);
 }
 
 /* Class Selector */
-.first-li {
-  background-color: #22577A;
+.background-blue {
+  background-color: rgb(0, 48, 73);
+}
+
+
+/* an * is the symbol to select everything */
+* {
+  color: rgb(0, 48, 73);
 }
 
 /* you can select multiple things by using commas */
 th,
 td {
-  background-color: rgba(3, 152, 103, .2);
+  background-color: rgb(234, 226, 183);
 }
 
 /* there are many types of units of measurements */
 /* pixels are the most common */
 h2 {
   font-size: 1rem;
+}
+
+
+header {
+  text-align: center;
+  padding: 5px;
+  border: 4px solid black;
+  margin: 20px;
+}
+
+main {
+  /* inline is the sides */
+  margin-inline: 15%;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+nav>ul>li {
+  margin-inline: 10px;
+  padding-inline: 10px;
+  padding-block: 6px;
+  border-radius: 5px;
+}
+
+nav>ul>li:hover {
+  background-color: rgb(252, 191, 73);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
 }
