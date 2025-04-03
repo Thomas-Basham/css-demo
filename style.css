@@ -2,6 +2,14 @@
 li {
   background-color: rgb(234, 226, 183);
   font-size: 20px;
+  padding: 5px;
+}
+
+ol {
+  background-color: rgb(234, 226, 183);
+  margin: 10px;
+  padding: 10px;
+  list-style-position: inside;
 }
 
 /* ID selector */
@@ -20,18 +28,12 @@ li {
   color: rgb(0, 48, 73);
 }
 
-/* you can select multiple things by using commas */
-th,
-td {
-  background-color: rgb(234, 226, 183);
-}
 
 /* there are many types of units of measurements */
 /* pixels are the most common */
 h2 {
   font-size: 1rem;
 }
-
 
 header {
   text-align: center;
@@ -46,8 +48,7 @@ main {
 }
 
 nav>ul {
-  display: flex;
-  justify-content: center;
+  padding-left: 0px;
   text-align: center;
 }
 
@@ -56,6 +57,7 @@ nav>ul>li {
   padding-inline: 10px;
   padding-block: 6px;
   border-radius: 5px;
+  display: inline;
 }
 
 nav>ul>li:hover {
@@ -66,6 +68,52 @@ a {
   text-decoration: none;
 }
 
-li {
-  display: inline;
+
+
+table {
+  width: 100%;
+  border: 1px solid rgb(0, 48, 73);
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+/* you can select multiple things by using commas */
+th,
+td {
+  /* border: 1px solid rgb(0, 48, 73); */
+  padding-inline: 6px;
+  padding-block: 12px;
+}
+
+
+tr:nth-child(even) {
+  background-color: rgb(247, 127, 0);
+}
+
+tr:hover {
+  background-color: rgb(234, 226, 183);
+  cursor: default;
+}
+
+th {
+  background-color: rgb(247, 127, 0);
+}
+
+tr {
+  background-color: rgb(252, 191, 73);
+}
+
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  background-color: rgb(234, 226, 183);
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
